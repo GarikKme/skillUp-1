@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, HelveticaNeueCyr, sans-serif;
+    padding-top: 100px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 1px solid #cecece;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form.closed {
+    display: none;
+}
+.form-control {
+    width: 500px;
+    margin: 20px 0;
+}
+.btn {
+    margin-top: 20px;
+}
+.answer {
+    width: 300px;
+    margin: 50px auto 0;
+    background: #cecece;
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    color: blue;
+}
+.task1 {
+    width: 100px;
+    margin: 0 auto;
+}
